@@ -53,7 +53,7 @@ const Hero = () => {
           </a>))}
         </div>
         <div className='lg:w-[600px] md:w-[500px] w-[350px] absolute left-1/2 -translate-x-1/2 -z-10'>
-        <img src="./road.png" alt="Road image" className='w-full mx-auto transition-opacity duration-300' style={{opacity: roadImageOpacity}}
+        <img src="./public/road.png" alt="Road image" className='w-full mx-auto transition-opacity duration-300' style={{opacity: roadImageOpacity}}
         />
           <span className='xl:text-xs md:text-[10px] text-[8px] font-bold tracking-wide absolute -top-5 xl:right-22 lg:right-26 md:right-16 right-13 rotate-[3.5deg] animate-bounce'>Looking for new challenges</span>
         <div className={`xl:h-[150px] h-[100px] px-3 xl:text-lg md:text-base text-xs font-light text-gray-900 dark:text-gray-200 text-justify tracking-wide overflow-y-auto transform origin-top custom-scrollbar ${isTextVisible ? 'scale-y-100' : 'scale-y-0'} transition-transform duration-300`}>
